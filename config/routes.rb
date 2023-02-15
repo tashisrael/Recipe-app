@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
-  devise_for :users
+  resources :foods
+  resources :recipes
+  devise_for :users, controllers: {
+    sessions: 'users/sessions',
+    registrations: 'users/registrations',
+    passwords: 'users/passwords'
+  }
+  root "foods#index"
   
-  root to: "home#index"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
-end
+  resources :users, only: [:index, :show]
+    resources :recipes, only: [:index, :show, :create, :edit, :delete]  end

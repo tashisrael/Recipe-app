@@ -1,15 +1,12 @@
 class FoodsController < ApplicationController
-  # GET /foods or /foods.json
   def index
     @foods = current_user.foods
   end
 
-  # GET /foods/1 or /foods/1.json
   def show
     @food = Food.find(params[:id])
   end
 
-  # GET /foods/new
   def new
     @food = Food.new
   end
@@ -18,7 +15,6 @@ class FoodsController < ApplicationController
     @food = Food.find(params[:id])
   end
 
-  # POST /foods or /foods.json
   def create
     @food = current_user.foods.new(food_params)
 
@@ -26,12 +22,11 @@ class FoodsController < ApplicationController
       if @food.save
         format.html { redirect_to foods_path, notice: 'Food was successfully created.' }
       else
-        flash[:alert] = 'Oops, Loser try again!'
+        flash[:alert] = 'Food od registration unsuccessful'
       end
     end
   end
 
-  # DELETE /foods/1 or /foods/1.json
   def destroy
     food = Food.find(params[:id])
     respond_to do |format|
@@ -45,7 +40,6 @@ class FoodsController < ApplicationController
 
   private
 
-  # Only allow a list of trusted parameters through.
   def food_params
     params.require(:food).permit(:name, :measurement_unit, :price, :quantity)
   end

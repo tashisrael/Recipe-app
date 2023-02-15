@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'recipes/index'
+  get 'recipes/show'
+  get 'recipes/new'
+  get 'recipes/create'
+  get 'recipes/update'
+  get 'recipes/destroy'
   devise_for :users
   
   root to: "home#index"

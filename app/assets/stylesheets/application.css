@@ -14,7 +14,7 @@
  *= require_self
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -31,7 +31,7 @@
   --tertiary-color: #e6e6e6;
 }
 
-.main-container {  
+.main-container {
   padding: 1.25rem 1.25rem;
 }
 
@@ -41,5 +41,5 @@
   border-radius: 5px;
 }
 
- @import "recipe.css";
- @import "form.css";
+@import "recipe.css";
+@import "form.css";

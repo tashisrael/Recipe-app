@@ -1,2 +1,4 @@
-<h1>Recipes#show</h1>
-<p>Find me in app/views/recipes/show.html.erb</p>
+<div>  
+  <%= link_to "Back", recipes_path, class: "btn light-green text-white rounded-50" %> 
+</div>
+<%= render "recipe_details", recipe: @recipe %>

@@ -1,73 +1,206 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<div align="center">
 
-> Description the project.
+</div>
 
+<!-- TABLE OF CONTENTS -->
 
-## Built With
+# 📗 Table of Contents
 
-- Major languages
-- Frameworks
-- Technologies used
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Recipe App ](#-recipe-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-## Live Demo (if available)
+<!-- PROJECT DESCRIPTION -->
 
-[Live Demo Link](https://livedemo.com)
+# 📖 Recipe App <a name="about-project"></a>
 
+> Describe your project in 1 or 2 sentences.
 
-## Getting Started
+**Recipe App** 
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 
-To get a local copy up and running follow these simple example steps.
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Recipe-creation]**
+- **[shoping-list-generator]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Incomming](https://yourdeployedapplicationlink.com)😊
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
+In order to run this project you need:
+
+```sh
+gem install rails
+```
+
 ### Setup
 
+Clone this repository to your desired folder:
+```sh
+git clone git@github.com:MohamedCK/Blog_App.git
+```
 ### Install
+
+Install this project with:
+```sh
+bundle install
+```
 
 ### Usage
 
+To run the project, execute the following command:
+
+```sh
+  rails server
+```
+
 ### Run tests
 
-### Deployment
+To run tests, run the following command:
+
+```sh
+rspec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 
+👤 **Mohamed Abdulhakim**
 
-## Authors
+  Software Developer | Javascript, React, Redux, MongoDB, PostgreSql, Ruby. | Good with Frontend. #OPENTOWORK
+- GitHub: [@MohamedCK](https://github.com/MohamedCK)
+- LinkedIn: [@mohamed-cake](https://www.linkedin.com/in/mohamed-cake/)
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Tashobya Israel**
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/tashisrael)
+- Twitter: [@twitterhandle](https://twitter.com/tashisrael)
+- Linkedin: [@linkedinhandle](https://www.linkedin.com/in/tashobya-israel-6a66b0181/l)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🤝 Contributing
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[User can add food]**
+- [ ] **[User can createa recipe]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+> Write a message to encourage readers to support your project
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+If you like this project...
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./LICENSE.md) licensed.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+ [MIT license](https://github.com/MohamedCK/Blog_App/blob/dev/MIT.md)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

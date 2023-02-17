@@ -35,10 +35,11 @@
   padding: 1.25rem 1.25rem;
 }
 
-.btn {
-  padding: 0.3rem 0.6rem;
-  border: none;
-  border-radius: 5px;
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 @import "recipe.css";

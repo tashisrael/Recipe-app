@@ -1,0 +1,36 @@
+<div class="container my-5">
+  <div class="row">
+    <div class="col">
+      <table class="table table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Food</th>
+            <th scope="col">Measurement Unit</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @foods.each do |food| %>
+            <tr>
+              <td><%= food.name %></td>
+              <td><%= food.measurement_unit %></td>
+              <td>$ <%= food.price %></td>
+              <td>
+                <%= button_to raw("<i class=\"bi bi-x-circle\"></i> Delete"),
+                    food_path(:id => food.id),
+                    class: "btn btn-danger",
+                    :method => :delete %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-end">
+      <%= link_to "Add Food", new_food_path, class: "btn btn-outline-dark mt-3" %>
+    </div>
+  </div>
+</div>

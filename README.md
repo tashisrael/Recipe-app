@@ -34,7 +34,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**Recipe App** 
+**Recipe App** is a web application built on Rails that allows users to create, manage and share recipes, as well as generate shopping lists based on the required ingredients. With a user-friendly interface and a comprehensive database of food ingredients, Recipe Manager is the perfect tool for home cooks and food enthusiasts alike.
 
 ## 🛠 Built With <a name="built-with"></a>
 

@@ -7,9 +7,9 @@ ruby '3.1.3'
 gem 'rails', '~> 7.0.4', '>= 7.0.4.1'
 
 # Use devise for login and registration
-gem 'devise'
-
 gem 'bootstrap', '~> 5.1'
+gem 'devise'
+gem 'letter_opener'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -57,7 +57,11 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'bullet'
+  gem 'database_cleaner'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
 end
 
 group :development do

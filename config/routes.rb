@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     resources :shopping_lists, only: [:index]
   end
 
+  resources :shopping_lists, only: [:index]
+
   get 'public_recipes', to: 'recipes#public_recipes'
 
   devise_for :users, controllers: {

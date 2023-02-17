@@ -151,13 +151,13 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project...
+If you like this project Please star it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank my coding partner, who consistently worked with me with all the challenges I was going through.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
